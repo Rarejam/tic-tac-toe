@@ -1,0 +1,31 @@
+.cell-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  box-shadow: 2px 2px 8px 8px grey;
+  /* grid-gap: 10px; */
+  width: 255px;
+  margin: auto;
+  /* border: 10px solid grey; */
+}
+.cell {
+  text-shadow: 2px 2px 8px 8px grey;
+  height: 89px;
+  width: 80px;
+  border: 1px solid;
+  box-shadow: 0px 0px 0px 2px;
+  line-height: 80px;
+  font-size: 50px;
+  cursor: pointer;
+  cursor: pointer;
+  /* font-size: 24px; */
+}
+.game-container {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+.restart {
+  border: none;
+  margin-bottom: 10px;
+  padding: 20px;
+}
